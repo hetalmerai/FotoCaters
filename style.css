@@ -1,0 +1,95 @@
+
+
+
+h1
+{
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  font: normal 82px/normal "Roboto", Verdana, sans-serif;
+  color: #C19A6B;
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+}
+
+
+
+.diamond-grid {
+    width: 1000px;
+    margin top: 0 auto;
+    padding-left: 150px;
+	padding-top: 30px;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 66px;
+    margin-top: 20px;
+}
+
+.diamond {
+    height: 160px;
+    width: 160px;
+    background: transparent;
+    color: #fff;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    border: 5px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: color ;
+    -moz-transition: color ;
+    -o-transition: color ;
+    transition: color ;
+}
+
+.diamond-grid > li:nth-child(9n+6) {
+    margin-left: 66px;
+    margin-top: -6px;
+}
+
+.diamond-grid > li:nth-child(5) {
+    margin-left: 182px;
+	margin-top: -2px;
+}
+.diamond-grid > li:nth-child(8) {
+    margin-left: 298px;
+}
+.diamond-grid > li:nth-child(n+5) {
+    margin-top: -51px;
+}
+.diamond-grid > li:nth-child(9) {
+    margin-left: 66px;
+}
+.diamond-grid > li:nth-child(10) {
+
+    margin-left: 413px;
+}
+
+.diamond-grid :hover {
+  
+
+  
+  width: 300px;
+  height:300px;
+
+  z-index: 10;
+ 
+  opacity: 1;
+}
+
+
+
